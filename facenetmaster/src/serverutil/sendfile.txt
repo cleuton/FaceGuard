@@ -1,0 +1,2 @@
+
+curl -i -X POST -H "Content-Type: multipart/form-data" -F "file=@/Users/cleuton/Documents/projetos/DL_iot/unknown_0001.jpg" localhost:8088

@@ -1,0 +1,5 @@
+
+curl -i -X POST -H "Content-Type: multipart/form-data" -F "file=@/Users/cleuton/Documents/projetos/DL_iot/unknown_0001.jpg" localhost:8088
+
+
+python classifier.py CLASSIFY ./serverutil/processadas /Users/cleuton/localprojs/FaceNet/20170512-110547/20170512-110547.pb /Users/cleuton/localprojs/FaceNet/20170512-110547/my_classifier.pkl --batch_size 1000
