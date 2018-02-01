@@ -16,6 +16,7 @@ import os, sys
 from flask import Flask, request, redirect, url_for, abort,  json
 from werkzeug.utils import secure_filename
 import Foto
+from glob import glob
 
 UPLOAD_FOLDER = 'serverutil/uploads/unknown'
 ALLOWED_EXTENSIONS = set(['jpg'])
@@ -39,6 +40,8 @@ def upload_file():
     if file and allowed_file(file.filename):
         filename = secure_filename(file.filename)
         file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
+        for ftxt in glob("/Users/cleuton/Documents/projetos/DL_iot/facenetmaster/src/serverutil/processadas/*.*"):
+            os.remove(ftxt)        
         retorno = Foto.process()
         print('Retorno do processamento: ', retorno)
         status=200

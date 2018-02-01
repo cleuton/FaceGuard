@@ -1,1 +1,0 @@
-./serverutil/processadas/unknown/unknown_0001.png 432 126 729 515
