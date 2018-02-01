@@ -17,9 +17,9 @@ This is an implementation of FaceNet using IoT for face recognition. Using a Ras
 
 First, you'll need to create a Python virtual environment for you, using *Anaconda*! [**Install Anaconda**](https://www.anaconda.com) and run the following command: 
 
-'''
+```
 conda env create -f ds-env.yml
-'''
+```
 
 The file [**ds-env.yml**](./ds-env.yml) is in the main repository folder. Any time you want to run this tutorial, activate the environment: "source activate facenet" (for Linux and MacOS) or "activate facenet" (for MS Windows).
 
