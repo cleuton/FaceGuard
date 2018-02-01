@@ -13,8 +13,17 @@
 # limitations under the License.
 
 import requests
+import RPi.GPIO as GPIO
+import time
+import picamera
 
-globalFoto = '/Users/cleuton/Documents/projetos/DL_iot/unknown_0001.jpg' # retirar
+GPIO.setmode(GPIO.BCM)
+GPIO.setwarnings(False) 
+GPIO.setup(18,GPIO.IN, pull_up_down=GPIO.PUD_UP)
+GPIO.setup(23,GPIO.OUT) # Yellow
+GPIO.setup(24,GPIO.OUT) # Green
+GPIO.setup(25,GPIO.OUT) # Red
+camera = picamera.PiCamera()
 
 def uploadFoto(foto):
     url = 'http://localhost:8088'
@@ -22,20 +31,26 @@ def uploadFoto(foto):
     r = requests.post(url, files=files)
     return r.status_code
 
-def checkFoto():
-    retorno = False
-    if len(globalFoto) > 0:   # mudar isso
-        return globalFoto,True
-    return globalFoto,False
 
 def waitFoto():
-    global globalFoto
-    foto,haveFoto = checkFoto()
-    if haveFoto:
-        print('@@@ Processando foto...')
-        retorno = uploadFoto(foto)
-        globalFoto = '' #retirar
+    input_state = GPIO.input(18)
+    if input_state == 0:
+        GPIO.output(23,GPIO.LOW)
+        GPIO.output(24,GPIO.LOW)
+        GPIO.output(24,GPIO.LOW)
+        print('Tirou foto!')
+        GPIO.output(23,GPIO.HIGH)
+        camera.capture('foto.jpg')
+        time.sleep(0.2)
+        retorno = uploadFoto('foto.jpg')
         print('*** Retorno do processamento da foto: ', retorno)
+        GPIO.output(23,GPIO.LOW)
+        if retorno = True:
+            GPIO.output(24,GPIO.HIGH)
+        else:
+            GPIO.output(25,GPIO.HIGH)
+        time.sleep(0.2)    
+    
 
 while (True):
     waitFoto()

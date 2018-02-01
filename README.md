@@ -15,6 +15,14 @@ This is an implementation of FaceNet using IoT for face recognition. Using a Ras
 
 ## Setup
 
+First, you'll need to create a Python virtual environment for you, using *Anaconda*! [**Install Anaconda**](https://www.anaconda.com) and run the following command: 
+
+'''
+conda env create -f ds-env.yml
+'''
+
+The file [**ds-env.yml**](./ds-env.yml) is in the main repository folder. Any time you want to run this tutorial, activate the environment: "source activate facenet" (for Linux and MacOS) or "activate facenet" (for MS Windows).
+
 You'll need to train a Classifier using [*LFW public dataset*](https://github.com/davidsandberg/facenet/wiki/Validate-on-LFW). 
 
 You can then train again using [*your own photos*](https://github.com/davidsandberg/facenet/wiki/Train-a-classifier-on-own-images). After that, you can run the [*photoserver*](./facenetmaster/src/photoserver.py) and install and run the [*photoclient*](./FaceNet/photoclient.py) on your **Raspberry PI 3**.
