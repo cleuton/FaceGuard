@@ -46,7 +46,7 @@ classification_status = False;
 def main(args):
   
     global classification_status
-    classification_status - False
+    classification_status = False
     with tf.Graph().as_default():
       
         with tf.Session() as sess:
