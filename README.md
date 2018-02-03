@@ -1,8 +1,8 @@
 # FaceGuard - Face recognition + Machine Learning + IoT Demo
 
-[**PORTUGUESE VERSION**](https://www.blogger.com/blogger.g?blogID=4060238375407478146#editor/target=post;postID=5627606700197622905;onPublishedMenu=allposts;onClosedMenu=allposts;postNum=0;src=link)
+[**TEXTO EM PORTUGUÊS**](http://www.obomprogramador.com/2018/02/tutorial-de-machine-learning-iot.html)
 
-[**VIDEO**]()
+[**VIDEO**](https://youtu.be/sqkxT7MBa8U)
 
 Most of the source code in this demo is a derivative from [**David Sandberg's** work](https://github.com/davidsandberg). The original license is included as file [**ORIGINAL_LICENSE.md**](./ORIGINAL_LICENSE.md).
 
