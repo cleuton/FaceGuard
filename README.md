@@ -2,6 +2,10 @@
 # OLHAR COMPUTACIONAL
 [**Cleuton Sampaio**](https://github.com/cleuton)
 
+Bem vindo ao meu site de estudos sobre **visão computacional** e suas aplicações. Aqui, tudo é open source. 
+
+Welcome to my **computer vision** research site. Everything here is open source.
+
 ## FaceGuard - Face recognition + Machine Learning + IoT Demo
 
 [**TEXTO EM PORTUGUÊS AQUI!!!**](http://www.obomprogramador.com/2018/02/tutorial-de-machine-learning-iot.html)
