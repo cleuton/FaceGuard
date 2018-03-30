@@ -1,6 +1,10 @@
-# FaceGuard - Face recognition + Machine Learning + IoT Demo
+![](./olhar_computacional.bmp)
+# OLHAR COMPUTACIONAL
+[**Cleuton Sampaio**](https://github.com/cleuton)
 
-[**TEXTO EM PORTUGUÊS**](http://www.obomprogramador.com/2018/02/tutorial-de-machine-learning-iot.html)
+## FaceGuard - Face recognition + Machine Learning + IoT Demo
+
+[**TEXTO EM PORTUGUÊS AQUI!!!**](http://www.obomprogramador.com/2018/02/tutorial-de-machine-learning-iot.html)
 
 [**VIDEO**](https://youtu.be/sqkxT7MBa8U)
 
