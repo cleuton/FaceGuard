@@ -11,6 +11,11 @@ Welcome to my **computer vision** research site. Everything here is open source.
 A CNN implementation which can recognize dogs and cats image. 
 [**CNN**](./CNN)
 
+## Simple Face Detection and Recognition for webcams
+
+A simple face detection program with a face recognition CNN for use in web and security cams: 
+[**Face Detection and Recognition**](./FaceRec)
+
 ## FaceGuard - Face recognition + Machine Learning + IoT Demo
 
 [**TEXTO EM PORTUGUÊS AQUI!!!**](http://www.obomprogramador.com/2018/02/tutorial-de-machine-learning-iot.html)
