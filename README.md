@@ -6,6 +6,10 @@ Bem vindo ao meu site de estudos sobre **visão computacional** e suas aplicaç�
 
 Welcome to my **computer vision** research site. Everything here is open source.
 
+[![](./banner_dois_livros.png)](http://www.lcm.com.br/site/#livros/detalhesLivro/data-science-para-profissionais---utilizando-r.html)
+
+[![](./logo_fundo_branco.png)](http://datalearninghub.com)
+
 ## CNN demo with dogs & cats
 
 A CNN implementation which can recognize dogs and cats image. 
