@@ -9,6 +9,7 @@ Welcome to my **computer vision** research site. Everything here is open source.
 [![](./banner_dois_livros.png)](http://www.lcm.com.br/site/#livros/detalhesLivro/data-science-para-profissionais---utilizando-r.html)
 
 [![](./logo_fundo_branco.png)](http://datalearninghub.com)
+[![](./logo-iotreta.png)](http://iotreta.com)
 
 ## CNN demo with dogs & cats
 
