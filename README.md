@@ -14,12 +14,12 @@ Welcome to my **computer vision** research site. Everything here is open source.
 ## CNN demo with dogs & cats
 
 A CNN implementation which can recognize dogs and cats image. 
-[**CNN**](./CNN)
+[**CNN**](https://github.com/cleuton/FaceGuard/tree/master/CNN)
 
 ## Simple Face Detection and Recognition for webcams
 
 A simple face detection program with a face recognition CNN for use in web and security cams: 
-[**Face Detection and Recognition**](./FaceRec)
+[**Face Detection and Recognition**](https://github.com/cleuton/FaceGuard/tree/master/FaceRec)
 
 ## FaceGuard - Face recognition + Machine Learning + IoT Demo
 
