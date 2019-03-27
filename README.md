@@ -13,7 +13,7 @@ Welcome to my **computer vision** research site. Everything here is open source.
 
 Temos vários artigos e farto código sobre reconhecimento facial: 
 1. [**Reconhecimento facial com Java, C++ usando HOG**](http://www.obomprogramador.com/2019/03/comparacao-de-rostos-com-java-e-c.html);
-2. [**Reconhecimento facial com Tensorflow e CNN**](http://www.obomprogramador.com/2019/03/reconhecimento-e-classificacao-facial.html)
+2. [**Reconhecimento facial com Tensorflow e CNN**](http://www.obomprogramador.com/2019/03/reconhecimento-e-classificacao-facial.html) there is also an [**english version here**](https://github.com/cleuton/facerec_cnn)
 
 
 ## CNN demo with dogs & cats
