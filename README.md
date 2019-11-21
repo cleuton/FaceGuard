@@ -15,6 +15,11 @@ Temos vários artigos e farto código sobre reconhecimento facial:
 1. [**Reconhecimento facial com Java, C++ usando HOG**](http://www.obomprogramador.com/2019/03/comparacao-de-rostos-com-java-e-c.html);
 2. [**Reconhecimento facial com Tensorflow e CNN**](http://www.obomprogramador.com/2019/03/reconhecimento-e-classificacao-facial.html) there is also an [**english version here**](https://github.com/cleuton/facerec_cnn)
 
+## Comparação de impressões digitais
+
+Sim! Agora vou te mostrar como comparar impressões digitais, por exemplo, a digital em um documento com uma digital capturada via dispositivo biométrico!
+
+[**FingerPrint Scan**](./FingerPrint)
 
 ## CNN demo with dogs & cats
 
